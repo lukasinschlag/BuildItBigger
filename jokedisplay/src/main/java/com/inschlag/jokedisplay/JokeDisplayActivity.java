@@ -2,6 +2,7 @@ package com.inschlag.jokedisplay;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class JokeDisplayActivity extends AppCompatActivity {
@@ -17,5 +18,9 @@ public class JokeDisplayActivity extends AppCompatActivity {
         if(bundle != null && bundle.containsKey(Constants.KEY_JOKE)){
             textView.setText(bundle.getString(Constants.KEY_JOKE));
         }
+    }
+
+    public void back(View v){
+        finish();
     }
 }
