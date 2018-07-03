@@ -34,7 +34,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_smiley" />
+                android:src="@drawable/ic_smiley"
+                android:contentDescription="@string/joke_logo" />
 
             <TextView
                 android:id="@+id/textView"
